@@ -1,0 +1,5 @@
+<resources>
+    <color name="button_background">#564444</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="button_reset">#100E0E</color>
+</resources>

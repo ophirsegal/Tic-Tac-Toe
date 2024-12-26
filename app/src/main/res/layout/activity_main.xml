@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CABC9D"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/app_name"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/top_left_button" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/top_center_button" />
+
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/top_right_button" />
+
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/middle_left_button" />
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/middle_center_button" />
+
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/middle_right_button" />
+
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/bottom_left_button" />
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/bottom_center_button" />
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#564444"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:contentDescription="@string/bottom_right_button" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#100E0E"
+
+        android:text="@string/reset_game"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

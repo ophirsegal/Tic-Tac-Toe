@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="turn_message">Player %1$s\'s turn</string>
+    <string name="winner_message">Player %1$s wins!</string>
+    <string name="draw_message">It\'s a draw!</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="top_left_button">Top Left</string>
+    <string name="top_center_button">Top Center</string>
+    <string name="top_right_button">Top Right</string>
+    <string name="middle_left_button">Middle Left</string>
+    <string name="middle_center_button">Middle Center</string>
+    <string name="middle_right_button">Middle Right</string>
+    <string name="bottom_left_button">Bottom Left</string>
+    <string name="bottom_center_button">Bottom Center</string>
+    <string name="bottom_right_button">Bottom Right</string>
+</resources>
